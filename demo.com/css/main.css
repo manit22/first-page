@@ -1,0 +1,191 @@
+body
+	{
+		font font-family: roboto;
+	}
+nav
+	{
+
+		width="100px" ;
+		height="80px" ;
+		background: #021428;
+	}
+
+a 
+  {
+  	line-height: 4;
+  	color: white;
+  	font-weight: bolder;
+  	text-decoration: none;
+  	margin-left: 20px;	
+  	position: relative;
+  	top: -13px;
+  	left:40px;
+  }
+
+ a:hover 
+  	{
+  		color: yellow;
+ 	 }
+ a.active 
+  	{
+  		color: lime;
+  		
+  		}
+
+img#logo{
+	margin-left: 178px;
+	margin-right: 20px;
+	margin-top:	14px;
+}
+img#slideshow{
+		 
+	border-bottom: 10px solid #021428;
+	width :1903 px;
+}
+/*section home page*/
+section#paragraph {
+    margin: 100px;
+}
+
+/*service page*/
+h1#page-title{
+
+		margin-left: 176px;
+		color:#021428;
+}
+
+img#service-slides{
+	margin-left: 176px;
+	width: 67%
+}
+
+section#service-paragraph{
+	margin: 100px;
+	margin-left: 176px;
+	width: 900px
+}
+
+/*portfolio page*/
+img#Project-image{
+	margin-left: 176px;
+}
+
+div#Project1{
+	margin-left: 1201;
+	position: absolute;
+	    top: 170px;
+    left: 860px;
+    width: 333px;
+}
+
+a.Project1-button{
+	width: 70px;
+	height: 30px;
+	background: #c51a1a;
+	padding:20px;
+	position: relative;
+	top:3px;
+	left:-21px;
+}
+div#Project2{
+	margin-left: 1201;
+	position: absolute;
+	    top: 513px;
+    left: 860px;
+    width: 333px;
+}
+a.Project2-button{
+	width: 70px;
+	height: 30px;
+	background: #c51a1a;
+	padding:20px;
+	position: relative;
+	top:3px;
+	left:-21px;
+
+}
+div#Project3{
+	margin-left: 1201;
+	position: absolute;
+	top: 857px;
+    left: 860px;
+    width: 333px;
+}
+a.Project3-button{
+	width: 70px;
+	height: 30px;
+	background: #c51a1a;
+	padding:20px;
+	position: relative;
+	top:3px;
+	left:-21px;
+}
+
+section#Project2,section#Project3{
+ margin-top: 40px;
+}
+/*About*/
+img#about-image{
+	margin-left: 176px;
+}
+h1{
+	margin-left: 176px;
+}
+/*contact page*/
+form{
+	margin-left: 176px;
+}
+.form-control{
+	display: block;
+	width: 40%;
+	padding: .375rem .75rem
+	font-size:1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25 rem;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-primary{
+	color: white;
+	background-color: #007bff;
+	border-color:#007bff;
+
+}
+.btn-primary:hover{
+	color: white;
+	background-color: blue;
+	border-color: blue
+}
+.btn{
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	user-select: none;
+	border:1px solid transparent;
+	padding: .375rem .75rem
+	font-size: 1rem;
+	line-height: 1.5
+	border-radius: .25 rem;
+	transition: border-color .15s ease-in-out;
+}
+/*footer*/
+footer {
+	margin-top: 200px;
+	background:#021428;
+	height: 215px;
+	width:100%;
+	color:white;
+	}
+
+
+p#footer-text {
+	line-height: 13;
+	text-align: center;
+
+
+}
